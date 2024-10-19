@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S&S Clothing</title>
+    <link rel="stylesheet" href="shah.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="shah.logo.jpeg" alt="S&S Clothing Logo" class="logo">
+            <h1>S&S Clothing</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contact" id="contact-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to S&S Clothing</h2>
+        <p>Your one-stop shop for the trendiest T-shirts and Polo Shirts! Explore our collection and shop your favorites.</p>
+        
+        <div class="product-grid" id="product-grid">
+            <!-- Products will be dynamically added here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h3>Contact Us</h3>
+        <p id="whatsapp-numbers">
+            <i class="fab fa-whatsapp"></i> WhatsApp numbers: 023344444444, 444444422222
+        </p>
+        <p>
+            <i class="fab fa-facebook"></i> Facebook page: 
+            <a href="https://www.facebook.com/people/SS-Clothing/61567184491261/?mibextid=JRoKGi" target="_blank">Visit our Facebook Page</a>
+        </p>
+    </section>
+
+    <!-- T-shirt Zoom Modal -->
+    <div id="zoomModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="zoomedImage">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 S&S Clothing. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="shah.js"></script>
+</body>
+</html>
